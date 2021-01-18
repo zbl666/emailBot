@@ -11,7 +11,7 @@ async function run() {
     let content = `<div style="position:relative;background:-webkit-linear-gradient(-45deg,  #5edac1 0%,#327dda 100%,#1a7a93 100%);width:100%;padding-bottom: 30px;" >
     <div style="padding: 15px;color: #237ecc;">
         <p style="font-size: 18px;margin: 10px 0;">${today}</p>
-        <p style="font-size: 28px;color: #2a8bde;margin: 10px 0;">和陈安宁婧相恋的第<span style="color: #dabf5e;"> ${DateTime.getDay(config.MEMORIAL_DAY)} </span>天</p>
+        <p style="font-size: 28px;color: #2a8bde;margin: 10px 0;">和小花相恋的第<span style="color: #dabf5e;"> ${DateTime.getDay(config.MEMORIAL_DAY)} </span>天</p>
     </div>
     <div style="padding: 10px 25px;color: #fff;">
         <div>

@@ -5,7 +5,7 @@
 
 1.npm install
 
-2.打开配置文件config/config.js,修改相应的配置
+2.打开配置文件config/config.js,修改相应的配置，将index.js中的小花修改成您女朋友的名字
         
 3运行node ./index.js
 

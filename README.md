@@ -12,4 +12,7 @@
 
 
 *邮箱必须是网易邮箱
+
+
+
 *config中的emailPass是网易邮箱开启SMPT返回的字符串

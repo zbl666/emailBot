@@ -23,9 +23,18 @@ async function run() {
             ${weather.tips}
         </p>
     </div>
-    <P style="color:#fff;font-weight:900;text-align:center;bottom:100px;width: 100%;font-size: 30px;text-shadow:3px 2px 2px rgba(1,138,110,.6);margin: 50px auto;">
-    ${oneText}
-    </P>
+    <div style='    position: relative;
+    color: white;
+    z-index: 1;
+    margin-top: 2vh;
+    margin-bottom: 35vh;
+    margin-left: auto;
+    margin-right: auto;font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;'>
+          <div style='position: absolute;left: 0;top: 0;'>『</div>
+          <div style='font-size: 2.3rem;text-align: center;line-height: 50px;word-break: normal;margin: 0;padding: 15px 50px;'>${oneText.text}</div>
+          <div  style='position: absolute;right: 0;bottom: 0;'>』</div>
+          <div  style='font-size: 20px;color: rgba(255, 255, 255, 0.8);float: right;margin-top: 40px;'>—— ${oneText.from_who}「${oneText.from}」</div>
+        </div>
     </div>
 </div>`
     Email.sendEmail(content)

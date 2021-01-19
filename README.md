@@ -2,7 +2,7 @@
 基于node实现的每天定时发送邮件
 
 效果图展示
-<img src="http://119.29.24.92/public/img/email_d.jpg" alt="效果图">
+(效果图)[http://119.29.24.92/public/img/email_d.jpg]
 
 
 1. - npm install

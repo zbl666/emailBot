@@ -3,7 +3,6 @@ const Schedule = require('./utils/schedule')
 const DateTime = require('./utils/dateTime')
 const Cheerio = require('./utils/cheerio')
 const config = require('./config/config')
-
 async function run() {
     let oneText = await Cheerio.getOne()
     let weather = await Cheerio.getTXweather()

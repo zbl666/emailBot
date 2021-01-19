@@ -2,7 +2,7 @@
 var nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 const config = require('../config/config')
-
+//
 // 开启一个 SMTP 连接池
 var transport = nodemailer.createTransport(smtpTransport({
     host: "smtp.163.com", // qq邮箱主机

@@ -3,7 +3,7 @@ const superagent = require('../config/superagent');
 const ONE = 'https://v1.hitokoto.cn/?encode=JSON&c=d&c=h&c=j&c=i&c=k&c=l'; // 文艺句子
 const tqHOST = 'https://tianqi.moji.com/weather/china/anhui/maanshan'; // 天气host
 const config = require('../config/config')
-
+ //
 async function getOne() {
     // 获取每日一句
     try {

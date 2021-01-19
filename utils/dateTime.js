@@ -6,7 +6,6 @@ function getDay(date) {
   );
   return iDays;
 }
-
 function getToday(){
   let today = new Date()
   var year = today.getFullYear();
